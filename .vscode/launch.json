@@ -5,11 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch firefox",
+            "file": "/home/user/Formation/livrables/P4/index.html"
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "name": "lauch chrome",
+            "file": "/home/user/Formation/livrables/P4/index.html"
         }
     ]
 }
