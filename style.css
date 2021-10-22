@@ -47,6 +47,7 @@ nav a
     font-weight: 600;
     color: #F3976C;
     text-align: center;
+    transition: all 0.5s ease;
 }
 
 .contact, .envoyer
@@ -61,12 +62,12 @@ nav a
     background-color: #F3976C;
     margin:auto;
     border-radius: 2.5rem;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 
-.contact:hover, .envoyer:hover
+.contact:hover, .envoyer:hover, .enseigne:hover, .enseign:hover .logo
 {
-    filter: brightness(80%);
+    filter: brightness(70%);
 }
 
 /* bloc services */
@@ -273,6 +274,28 @@ footer h2
     display: block;
     color:#FFFFFF;
     margin:2rem;
+}
+
+.fa-twitter
+{
+    color:#00acee;
+}
+
+.fa-facebook
+{
+    color:#3b5998;
+}
+
+.fa-dribbble
+{
+    color:#ea4c89
+}
+
+.fa-instagram
+{
+    background:linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    -webkit-background-clip: text;
+    color:transparent;
 }
 
 .liens
