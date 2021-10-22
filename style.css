@@ -65,7 +65,7 @@ nav a
     transition: all 0.2s ease;
 }
 
-.contact:hover, .envoyer:hover, .enseigne:hover, .enseign:hover .logo
+.contact:hover, .envoyer:hover, .enseigne:hover, .enseign:hover .logo, .social span:hover
 {
     filter: brightness(70%);
 }
