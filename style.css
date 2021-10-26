@@ -248,8 +248,7 @@ article span
     display:grid;
     grid-template-columns: 2.5rem 55rem 2.5rem;
     grid-template-rows: auto auto auto;
-    position:fixed;
-    top:25%;
+    position:absolute;
     margin:auto;
     background-color:white;
     border:1px solid black;
