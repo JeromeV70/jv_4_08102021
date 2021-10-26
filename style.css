@@ -317,8 +317,7 @@ article span
 
 footer
 {
-    background-color: #C84D14;
-    color:#FFFFFF;
+    background-color: #FFFFFF;
 }
 
 footer h2
@@ -335,14 +334,14 @@ footer h2
     flex-flow:row wrap;
     font-size: 3.5rem;
     justify-content: center;
-    background-color: #d18867;
+    /*background-color: #d18867;*/
+    background-color: #FFFFFF;
 }
 
 .social a
 {
     text-decoration: none;
     display: block;
-    color:#FFFFFF;
     margin:2rem;
 }
 
