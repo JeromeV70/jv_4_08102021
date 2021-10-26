@@ -28,7 +28,7 @@ function lightbox(numero)
     // ajout des boutons de contrôle à la lightbox
     portfolio.appendChild(left);
     portfolio.appendChild(right);
-    portfolio.appendChild(close);   
+    portfolio.appendChild(close);
 
     // ajout de la lightbox au portfolio
     document.getElementsByClassName('portfolio__bloc')[0].appendChild(portfolio);
@@ -56,14 +56,13 @@ function lightbox(numero)
             var numero_left = numero-1;
             var numero_right = numero+1;
         }
-        
+
     document.getElementById('display').focus();
     document.getElementById('display').addEventListener('keydown', (touche) => {keyboard_press(touche,numero,numero_left,numero_right),false});
 
     document.getElementById('display').getElementsByClassName('fa-chevron-left')[0].addEventListener('click', function(){lightbox(numero_left),false});
     document.getElementById('display').getElementsByClassName('fa-chevron-right')[0].addEventListener('click', function(){lightbox(numero_right),false});
     document.getElementById('display').getElementsByClassName('fa-window-close')[0].addEventListener('click', function(){lightbox_close(),false});
-
 }
 
 // fermeture lightbox lors du clic sur bouton "x"
