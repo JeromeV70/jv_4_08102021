@@ -57,6 +57,15 @@ readers do not read off random characters that represent icons */
 .fa-plus::before {
   content: "\2b"; }
 
+.fa-chevron-left::before {
+  content: "\f053"; }
+
+.fa-chevron-right::before {
+  content: "\f054"; }
+
+.fa-window-close::before {
+  content: "\f410"; }
+
 .fa-facebook-f:before {
   content: "\f39e"; }
   
