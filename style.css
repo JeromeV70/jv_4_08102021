@@ -170,7 +170,7 @@ nav a
 {
     display:block;
     margin:auto;
-    text-decoration:none;
+    text-decoration:none; 
 }
 
 /* bloc portfolio */
@@ -196,13 +196,12 @@ nav a
     flex-flow:row wrap;
     justify-content:center;
 }
-
 .portfolio__bloc article
 {
     display:grid;
     grid-template-columns: 20rem;
     grid-template-rows: 20rem 4rem 3rem;
-    margin:5rem;
+    margin:1.5rem;
 }
 
 .portfolio__bloc article img
@@ -212,6 +211,25 @@ nav a
     width:100%;
 }
 
+.portfolio__bloc article img:hover,
+.portfolio__bloc article img:focus,
+.portfolio__bloc article img:hover span
+{
+    opacity:0.5;
+}
+article span
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self:center;
+    justify-self:center;
+    border:none;
+    border-radius: 100%;
+    padding:8%;
+    font-size:2rem;
+    color:white;
+    background-color: black;
+}
 .portfolio__bloc article h3
 {
     grid-column: 1/2;
@@ -224,6 +242,58 @@ nav a
     grid-column: 1/2;
     grid-row: 3/4;
     text-align: center;
+}
+#display
+{
+    display:grid;
+    grid-template-columns: 2.5rem 55rem 2.5rem;
+    grid-template-rows: auto auto auto;
+    position:fixed;
+    top:25%;
+    margin:auto;
+    background-color:white;
+    border:1px solid black;
+}
+#display img
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width:100%;
+    justify-self: center;
+    align-self: center;
+}
+
+#display h3
+{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    padding:0;
+    margin:1rem;
+}
+
+#display .fa-window-close
+{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 2rem;
+    justify-self: center;
+}
+#display .fa-chevron-left
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+    font-size: 3rem;
+    justify-self: center;
+}
+#display .fa-chevron-right
+{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: center;
+    font-size: 3rem;
+    justify-self: center;
 }
 
 /* bloc rappel de contact */
@@ -388,7 +458,6 @@ address
 }
 
 /* Responsive */
-
 @media screen and (max-width:769px)
 {
     .banniere
@@ -398,7 +467,6 @@ address
     .metier
     {
         background-image: auto,url(img/image-metier-769.webp);
-
     }
     .portfolio__bloc article
     {
@@ -408,10 +476,22 @@ address
     {
         margin:5rem 1rem;
     }
+    #display
+    {
+        grid-template-columns: 4vw 88vw 4vw;
+    }
+    #display .fa-window-close
+    {
+        font-size:1.25rem;
+    }
+    #display .fa-chevron-left, #display .fa-chevron-right
+    {
+        font-size:1.5rem;
+    }
     footer
     {
         height: auto;
-        padding-bottom:3rem;
+        padding-bottom:1.5rem;
     }
     .liens
     {
@@ -432,7 +512,7 @@ address
     .liens h3:nth-last-of-type(2) /* partenaires titre */
     {
         grid-column: 1/2;
-        grid-rows: 1/2;
+        grid-row: 1/2;
     }    
     .liste:nth-last-of-type(2) /* partenaires liste */
     {
@@ -455,6 +535,10 @@ address
     .metier__textes
     {
         margin:5rem 1rem;
+    }
+    #display
+    {
+        grid-template-columns: 4vw 88vw 4vw;
     }
 }
 
