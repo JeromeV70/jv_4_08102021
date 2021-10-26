@@ -45,7 +45,7 @@ nav a
 {
     font-size: 2rem;
     font-weight: 600;
-    color: #F3976C;
+    color: #C84D14;
     text-align: center;
     transition: all 0.5s ease;
 }
@@ -59,7 +59,7 @@ nav a
     padding:1rem 2rem;
     width:min-content;
     height:min-content;
-    background-color: #F3976C;
+    background-color: #C84D14;
     margin:auto;
     border-radius: 2.5rem;
     transition: all 0.2s ease;
@@ -154,7 +154,7 @@ nav a
 
 .metier__textes h2
 {
-    color:#F3976C;
+    color:#C84D14;
     text-align: center;
     margin:0 1rem;
 }
@@ -299,7 +299,7 @@ article span
 
 .rappel
 {
-    color:#F3976C;
+    color:#C84D14;
     text-align: center;
 }
 
@@ -317,7 +317,7 @@ article span
 
 footer
 {
-    background-color: #F3976C;
+    background-color: #C84D14;
     color:#FFFFFF;
 }
 
@@ -335,6 +335,7 @@ footer h2
     flex-flow:row wrap;
     font-size: 3.5rem;
     justify-content: center;
+    background-color: #d18867;
 }
 
 .social a
@@ -350,7 +351,7 @@ footer h2
     color:#00acee;
 }
 
-.fa-facebook-square
+.fa-facebook-f
 {
     color:#3b5998;
 }
