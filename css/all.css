@@ -53,7 +53,10 @@ readers do not read off random characters that represent icons */
 
 .fa-images::before {
   content: "\f302"; }
-  
+
+.fa-plus::before {
+  content: "\2b"; }
+
 .fa-facebook-f:before {
   content: "\f39e"; }
   
