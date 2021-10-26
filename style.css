@@ -95,9 +95,9 @@ nav a
     margin:1rem;
 }
 
-.services__element span[class^='et-icon']
+.services__element span/*[class^='far']*/
 {
-    font-size:3.5rem;
+    font-size:4rem;
     grid-column: 1/2;
     grid-row: 1/2;
     justify-self: center;
@@ -350,7 +350,7 @@ footer h2
     color:#00acee;
 }
 
-.fa-facebook
+.fa-facebook-square
 {
     color:#3b5998;
 }
