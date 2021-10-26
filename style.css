@@ -15,7 +15,7 @@ body
     background-size:auto,cover;
     background-position: center;
     background-attachment:local,fixed;
-    background-image: url(img/texture-paper.webp),url(img/la-chouette-agence-banniere.webp);    
+    background-image: url(img/texture-paper.webp),url(img/la-chouette-agence-banniere-769.webp);    
 }
 
 nav
@@ -141,7 +141,7 @@ nav a
     background-size:auto,cover;
     background-position: center;
     background-attachment:local,fixed;
-    background-image: url(img/texture-paper.webp),url(img/image-metier.webp);
+    background-image: url(img/texture-paper.webp),url(img/image-metier-769.webp);
 }
 
 .metier__textes
@@ -460,14 +460,6 @@ address
 /* Responsive */
 @media screen and (max-width:769px)
 {
-    .banniere
-    {
-        background-image: auto,url(img/la-chouette-agence-banniere-769.webp); 
-    }
-    .metier
-    {
-        background-image: auto,url(img/image-metier-769.webp);
-    }
     .portfolio__bloc article
     {
         margin:2rem auto;
@@ -521,7 +513,6 @@ address
         height: auto;
     }
 }
-
 @media screen and (min-width:769px) and (max-width:991px)
 {
     .banniere
@@ -541,8 +532,14 @@ address
         grid-template-columns: 4vw 88vw 4vw;
     }
 }
-
 @media screen and (min-width:991px)
 {
-
+    .banniere
+    {
+        background-image: auto,url(img/la-chouette-agence-banniere.webp); 
+    }
+    .metier
+    {
+        background-image: auto,url(img/image-metier.webp);
+    }
 }
