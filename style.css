@@ -517,11 +517,11 @@ address
 {
     .banniere
     {
-        background-image: auto,url(img/la-chouette-agence-banniere-991.webp); 
+        background-image: auto,url('img/la-chouette-agence-banniere-991.webp'); 
     }
     .metier
     {
-        background-image: auto,url(img/image-metier-991.webp);
+        background-image: auto,url('img/image-metier-991.webp');
     }
     .metier__textes
     {
@@ -536,10 +536,10 @@ address
 {
     .banniere
     {
-        background-image: auto,url(img/la-chouette-agence-banniere.webp); 
+        background-image: auto,url('img/la-chouette-agence-banniere.webp'); 
     }
     .metier
     {
-        background-image: auto,url(img/image-metier.webp);
+        background-image: auto,url('img/image-metier.webp');
     }
 }
